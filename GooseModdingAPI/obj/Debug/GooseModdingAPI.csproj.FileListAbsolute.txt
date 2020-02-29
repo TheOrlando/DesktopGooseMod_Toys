@@ -1,0 +1,5 @@
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\PetGooseMod\GooseModdingAPI\bin\Debug\GooseModdingAPI.dll
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\PetGooseMod\GooseModdingAPI\bin\Debug\GooseModdingAPI.pdb
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\PetGooseMod\GooseModdingAPI\obj\Debug\GooseModdingAPI.csprojAssemblyReference.cache
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\PetGooseMod\GooseModdingAPI\obj\Debug\GooseModdingAPI.dll
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\PetGooseMod\GooseModdingAPI\obj\Debug\GooseModdingAPI.pdb

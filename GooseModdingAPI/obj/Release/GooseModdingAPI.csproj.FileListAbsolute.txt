@@ -1,0 +1,10 @@
+C:\Users\Start Minecraft\Documents\Visual Studio 2015\Projects\GooseDesktop\_API Solution\GooseModdingAPI\GooseModdingAPI\bin\Release\GooseModdingAPI.dll
+C:\Users\Start Minecraft\Documents\Visual Studio 2015\Projects\GooseDesktop\_API Solution\GooseModdingAPI\GooseModdingAPI\bin\Release\GooseModdingAPI.pdb
+C:\Users\Start Minecraft\Documents\Visual Studio 2015\Projects\GooseDesktop\_API Solution\GooseModdingAPI\GooseModdingAPI\obj\Release\GooseModdingAPI.csprojResolveAssemblyReference.cache
+C:\Users\Start Minecraft\Documents\Visual Studio 2015\Projects\GooseDesktop\_API Solution\GooseModdingAPI\GooseModdingAPI\obj\Release\GooseModdingAPI.dll
+C:\Users\Start Minecraft\Documents\Visual Studio 2015\Projects\GooseDesktop\_API Solution\GooseModdingAPI\GooseModdingAPI\obj\Release\GooseModdingAPI.pdb
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\GooseMod_DefaultSolution\GooseModdingAPI\bin\Release\GooseModdingAPI.dll
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\GooseMod_DefaultSolution\GooseModdingAPI\bin\Release\GooseModdingAPI.pdb
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\GooseMod_DefaultSolution\GooseModdingAPI\obj\Release\GooseModdingAPI.csprojAssemblyReference.cache
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\GooseMod_DefaultSolution\GooseModdingAPI\obj\Release\GooseModdingAPI.dll
+C:\Users\Rich\Desktop\Goose\DesktopGoose v0.3\FOR MOD-MAKERS\GooseMod_DefaultSolution\GooseModdingAPI\obj\Release\GooseModdingAPI.pdb
