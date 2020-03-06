@@ -13,10 +13,11 @@ namespace PetGoose
         Item[] items;
         public void Init()
         {
-            items = new Item[3];
+            items = new Item[4];
             items[0] = new Ball();
             items[1] = new Stick();
             items[2] = new Bed();
+            items[3] = new Laser();
             Menu.init(items);
 
             InjectionPoints.PreTickEvent += PreTick;
@@ -40,6 +41,11 @@ namespace PetGoose
                 API.Goose.setTaskRoaming(goose);
             }
             else if ((goose.currentTask == API.TaskDatabase.getTaskIndexByID("RunToBed") || goose.currentTask == API.TaskDatabase.getTaskIndexByID("Sleeping")) && !items[2].isOn())
+            {
+                API.Goose.setSpeed(goose, GooseEntity.SpeedTiers.Walk);
+                API.Goose.setTaskRoaming(goose);
+            }
+            else if (goose.currentTask == API.TaskDatabase.getTaskIndexByID("ChaseLaser") && !items[3].isOn())
             {
                 API.Goose.setSpeed(goose, GooseEntity.SpeedTiers.Walk);
                 API.Goose.setTaskRoaming(goose);

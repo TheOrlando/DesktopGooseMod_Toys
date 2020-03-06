@@ -39,7 +39,7 @@ namespace PetGoose
                 return;
             if (!(goose.currentTask == API.TaskDatabase.getTaskIndexByID("RunToBed")) && !(goose.currentTask == API.TaskDatabase.getTaskIndexByID("Sleeping")))
             {
-                API.Goose.setCurrentTaskByID(goose, "RunToBed");
+                API.Goose.setCurrentTaskByID(goose, "RunToBed", false);
             }
             if (goose.currentTask == API.TaskDatabase.getTaskIndexByID("RunToBed"))
             {
@@ -51,7 +51,7 @@ namespace PetGoose
                     asleep = true;
 
                     API.Goose.setSpeed(goose, GooseEntity.SpeedTiers.Walk);
-                    API.Goose.setCurrentTaskByID(goose, "Sleeping");
+                    API.Goose.setCurrentTaskByID(goose, "Sleeping", false);
                 }
             }
             else if(goose.currentTask == API.TaskDatabase.getTaskIndexByID("Sleeping"))

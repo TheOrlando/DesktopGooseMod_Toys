@@ -29,7 +29,6 @@ namespace PetGoose
         }
 
         abstract public void tick(GooseEntity goose);
-
         abstract public void activate();
         abstract public void render(Graphics g);
         abstract public void render(Graphics g, int x, int y);

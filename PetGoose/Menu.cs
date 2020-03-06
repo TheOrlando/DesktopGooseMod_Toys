@@ -13,7 +13,7 @@ namespace PetGoose
 {
     class Menu
     {
-        public static readonly int REST_POSITION = -40, EXTENDED_POSITION = 0, FULL_EXTENDED_POSITION = 200, LOADING_BAR_FULL = 50;
+        public static readonly int REST_POSITION = -40, EXTENDED_POSITION = 0, FULL_EXTENDED_POSITION = 260, LOADING_BAR_FULL = 50;
         private static int x, y, state, speed, lastMouseX;
         private static float hoverTime, confirmTime, exitTime, loadingBar;
         private static Image tab, menu;
@@ -36,8 +36,8 @@ namespace PetGoose
             lastMouseX = Input.mouseX;
 
             string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            tab = Image.FromFile(Path.Combine(assemblyFolder, "Images\\MenuTab.png"));
-            menu = Image.FromFile(Path.Combine(assemblyFolder, "Images\\Menu.png"));
+            tab = Image.FromFile(Path.Combine(assemblyFolder, "Images\\menuTab.png"));
+            menu = Image.FromFile(Path.Combine(assemblyFolder, "Images\\menu.png"));
         }
 
         public static void tick()
@@ -124,11 +124,11 @@ namespace PetGoose
                     {
                         bool temp = false;
                         for(int i = 0; i < items.Length; i++)
-                            if(Input.mouseX < x - 10 - (i*60) && Input.mouseX > x - 60 - (i * 60))
+                            if(Input.mouseX < x - 20 - (i*60) && Input.mouseX > x - 60 - (i * 60))
                             {
                                 temp = true;
 
-                                if ((lastMouseX > x - 10 - (i * 60) || lastMouseX < x - 60 - (i * 60) && hoverTime > 0))
+                                if ((lastMouseX > x - 20 - (i * 60) || lastMouseX < x - 60 - (i * 60) && hoverTime > 0))
                                     hoverTime = 0;
                                 if (hoverTime == 0)
                                     hoverTime = Time.time;
